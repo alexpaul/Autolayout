@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZZE-nI-bmU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gIl-2D-KQI">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
@@ -119,6 +119,86 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Jh-mE-W7d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-59.420289855072468" y="1545.5357142857142"/>
+        </scene>
+        <!--Autolayout 8-->
+        <scene sceneID="uK0-cb-R3u">
+            <objects>
+                <viewController storyboardIdentifier="Autolayout 8" id="gIl-2D-KQI" userLabel="Autolayout 8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mn0-FM-Mcg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thanksgiving" translatesAutoresizingMaskIntoConstraints="NO" id="LnN-sR-zxi">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="409"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Gzk-Oc-vts">
+                                <rect key="frame" x="0.0" y="409" width="414" height="487"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Gzk-Oc-vts" firstAttribute="top" secondItem="LzK-Dp-sxK" secondAttribute="top" id="11u-cL-fgP"/>
+                            <constraint firstItem="LnN-sR-zxi" firstAttribute="trailing" secondItem="LzK-Dp-sxK" secondAttribute="trailing" id="2rQ-MI-p3g"/>
+                            <constraint firstAttribute="bottom" secondItem="Gzk-Oc-vts" secondAttribute="bottom" id="7ur-MC-Ciy"/>
+                            <constraint firstItem="LnN-sR-zxi" firstAttribute="leading" secondItem="LzK-Dp-sxK" secondAttribute="leading" id="CWo-te-e3m"/>
+                            <constraint firstItem="LnN-sR-zxi" firstAttribute="top" secondItem="LzK-Dp-sxK" secondAttribute="top" id="GTQ-sy-uT3"/>
+                            <constraint firstItem="LnN-sR-zxi" firstAttribute="leading" secondItem="LzK-Dp-sxK" secondAttribute="leading" id="HEo-V8-DB4"/>
+                            <constraint firstAttribute="bottom" secondItem="Gzk-Oc-vts" secondAttribute="bottom" id="Jxt-jz-HvA"/>
+                            <constraint firstAttribute="bottom" secondItem="LnN-sR-zxi" secondAttribute="bottom" id="Obn-nH-ThB"/>
+                            <constraint firstItem="Gzk-Oc-vts" firstAttribute="leading" secondItem="LnN-sR-zxi" secondAttribute="trailing" constant="143" id="SM0-Bq-HfU">
+                                <variation key="heightClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="LnN-sR-zxi" firstAttribute="height" secondItem="LzK-Dp-sxK" secondAttribute="height" multiplier="0.5" id="T1g-ET-rCC"/>
+                            <constraint firstItem="LnN-sR-zxi" firstAttribute="width" secondItem="LzK-Dp-sxK" secondAttribute="width" multiplier="0.5" id="V3V-rl-MsQ"/>
+                            <constraint firstItem="LnN-sR-zxi" firstAttribute="top" secondItem="mn0-FM-Mcg" secondAttribute="top" id="c7t-Pl-VG8"/>
+                            <constraint firstItem="Gzk-Oc-vts" firstAttribute="trailing" secondItem="LzK-Dp-sxK" secondAttribute="trailing" id="eai-39-aB8"/>
+                            <constraint firstItem="Gzk-Oc-vts" firstAttribute="top" secondItem="LnN-sR-zxi" secondAttribute="bottom" id="nEU-CA-kJK"/>
+                            <constraint firstItem="Gzk-Oc-vts" firstAttribute="leading" secondItem="LzK-Dp-sxK" secondAttribute="leading" id="p7Q-kd-sp1"/>
+                            <constraint firstItem="LzK-Dp-sxK" firstAttribute="trailing" secondItem="Gzk-Oc-vts" secondAttribute="trailing" id="s8R-zE-Niq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LzK-Dp-sxK"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="s8R-zE-Niq"/>
+                                <exclude reference="CWo-te-e3m"/>
+                                <exclude reference="GTQ-sy-uT3"/>
+                                <exclude reference="Obn-nH-ThB"/>
+                                <exclude reference="V3V-rl-MsQ"/>
+                                <exclude reference="11u-cL-fgP"/>
+                                <exclude reference="7ur-MC-Ciy"/>
+                                <exclude reference="SM0-Bq-HfU"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="s8R-zE-Niq"/>
+                                <exclude reference="2rQ-MI-p3g"/>
+                                <include reference="CWo-te-e3m"/>
+                                <include reference="GTQ-sy-uT3"/>
+                                <exclude reference="HEo-V8-DB4"/>
+                                <include reference="Obn-nH-ThB"/>
+                                <exclude reference="T1g-ET-rCC"/>
+                                <include reference="V3V-rl-MsQ"/>
+                                <exclude reference="c7t-Pl-VG8"/>
+                                <include reference="11u-cL-fgP"/>
+                                <include reference="7ur-MC-Ciy"/>
+                                <exclude reference="Jxt-jz-HvA"/>
+                                <include reference="SM0-Bq-HfU"/>
+                                <exclude reference="eai-39-aB8"/>
+                                <exclude reference="nEU-CA-kJK"/>
+                                <exclude reference="p7Q-kd-sp1"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nJz-cR-rk2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="773.4375" y="1544.9275362318842"/>
         </scene>
         <!--Autolayout 5-->
         <scene sceneID="OQ2-3v-b8T">
@@ -268,4 +348,7 @@
             <point key="canvasLocation" x="1620" y="138"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="thanksgiving" width="640" height="638"/>
+    </resources>
 </document>
